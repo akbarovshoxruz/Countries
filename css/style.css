@@ -47,6 +47,8 @@ header{
   width: 100%;
   white-space: nowrap;
   background-color: var(--element-bg);
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.06);
+  margin-bottom: 50px;
 }
 
 .site-header {
@@ -82,4 +84,31 @@ header{
 .site-header-theme-toggler-text {
   font-size: 16px;
   font-weight: 600;
+}
+
+/* Filter */
+
+.counter-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.counter-filter-search-input {
+  min-width: 480px;
+  padding: 20px 74px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.06);
+  background-color: var(--element-bg);
+  color: var(--text-color);
+}
+.counter-filter-select {
+  min-width: 200px;
+  padding: 18px 24px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--element-bg);
+  color: var(--text-color);
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.06);
 }

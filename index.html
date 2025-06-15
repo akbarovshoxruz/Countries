@@ -23,7 +23,21 @@
             </div>
         </div>
     </header>
-
+    <main>
+        <div class="container">
+            <form class="counter-filter">
+                <input class="counter-filter-search-input" type="search" name="search" placeholder="Search for a country…" aria-label="Country name" required>
+                <select class="counter-filter-select" name="region">
+                    <option selected disabled>Filter by Region</option>
+                    <option>Africa</option>
+                    <option>America</option>
+                    <option>Asia</option>
+                    <option>Europe</option>
+                    <option>Oceania</option>
+                </select>
+            </form>
+        </div>
+    </main>
     <script src="./js/script.js"></script>
 </body>
 </html>
