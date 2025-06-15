@@ -39,3 +39,46 @@ body{
     padding-right: 20px;
     margin: 0 auto;
 }
+
+/* Header */
+
+header{
+  width: 100%;
+  white-space: nowrap;
+  background-color: var(--element-bg);
+}
+
+.site-header {
+  width: 100%;
+  padding: 24px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-header-logo {
+  font-size: 24px;
+  font-weight: 800;
+  text-decoration: none;
+  color: var(--text-color);
+}
+.site-header-logo:hover{
+  opacity: 0.8;
+}
+.site-header-logo:active{
+  opacity: 0.6;
+}
+.site-header-theme-toggler {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  color: var(--text-color);
+}
+.site-header-theme-toggler-inner {
+  display: flex;
+  gap: 8px;
+}
+.site-header-theme-toggler-text {
+  font-size: 16px;
+  font-weight: 600;
+}
