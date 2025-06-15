@@ -30,6 +30,7 @@ body{
   letter-spacing: normal;
   background-color: var(--body-bg);
   color: var(--text-color);
+  transition: background-color 0.3s ease , color 0.3s ease;
 }
 
 .container{
